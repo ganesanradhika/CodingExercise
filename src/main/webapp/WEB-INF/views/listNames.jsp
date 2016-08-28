@@ -10,13 +10,14 @@
 		
 		<h2>
 			
-			
+			<table>
 			<c:forEach var="name" items="${nameList}">
 						<tr>
 			        		<td>${name}</td>  
 			      			
 			  			</tr>
-			</c:forEach> 
+			</c:forEach>
+			</table> 
 		</h2>
 	</center>
 </body>
